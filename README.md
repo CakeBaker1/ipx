@@ -1,4 +1,4 @@
-# IPX - IP eXpression Language
+# IPX
 
 **IPX (IP eXpression Language)** is a lightweight, expressive protocol for parsing and interpreting user input into structured data formats like JSON. Built with performance and simplicity in mind, IPX helps transform ambiguous or hard-to-read strings into clear logical statements.
 
@@ -28,7 +28,7 @@ Convert user-friendly query strings into structured formats that are easy to par
 **Example:**
 
 ```
-something:"some_value"
+key:"value"
 ```
 
 Will be transformed into:
@@ -36,9 +36,9 @@ Will be transformed into:
 ```json
 {
   "type": "MATCH",
-  "key": "something",
+  "key": "key",
   "op": ":",
-  "value": "some_value"
+  "value": "value"
 }
 ```
 
@@ -64,13 +64,13 @@ This JSON structure can then be passed through any processing pipeline, rule eng
 
 ## 🚀 Features
 
-- 🔥 High performance
-- 🛡️ Secure and safe parsing
-- 🌍 Cross-platform compatibility
-- 🧠 Simple and human-friendly syntax
-- 🧩 Easy to extend and integrate
-- ✅ Supports complex logical expressions
-- 🛠️ Open to community improvements
+- High performance
+- Secure and safe parsing
+- Cross-platform compatibility
+- Simple and human-friendly syntax
+- Easy to extend and integrate
+- Supports complex logical expressions
+- Open to community improvements
 
 ---
 
